@@ -55,6 +55,7 @@ west update
 The application can be built by running:
 
 ```shell
+export BOARD=arduino_nano_33_iot
 west build -b $BOARD app
 ```
 
