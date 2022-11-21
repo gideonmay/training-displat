@@ -46,7 +46,7 @@ that by running:
 # initialize training-display for the training-display (main branch)
 west init -m https://github.com/gideonmay/training-display --mr main training-display
 # update Zephyr modules
-cd my-workspace
+cd training-display
 west update
 ```
 
