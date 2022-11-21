@@ -4,7 +4,7 @@
  */
 
 /* This devicetree overlay file will be automatically picked by the Zephyr
- * build system when building the sample for the nucleo_f302r8 board. It shows
+ * build system when building the sample for the arduino_nano_33_iot board. It shows
  * how the training-display can be built on sample boards already provided
  * by Zephyr.
  */
@@ -12,7 +12,7 @@
 / {
 	examplesensor0: examplesensor_0 {
 		compatible = "zephyr,examplesensor";
-		input-gpios = <&gpioc 13 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+		input-gpios = <&gpioc 12 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
 	};
 };
 

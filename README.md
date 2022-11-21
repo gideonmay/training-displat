@@ -17,7 +17,7 @@ applications. Some of the features demonstrated in this example are:
 This repository is versioned together with the [Zephyr main tree][zephyr]. This
 means that every time that Zephyr is tagged, this repository is tagged as well
 with the same version number, and the [manifest](west.yml) entry for `zephyr`
-will point to the corresponding Zephyr tag. For example, `example-application`
+will point to the corresponding Zephyr tag. For example, `training-display`
 v2.6.0 will point to Zephyr v2.6.0. Note that the `main` branch will always
 point to the development branch of Zephyr, also `main`.
 
@@ -38,8 +38,8 @@ environment. You can follow the official
 
 ### Initialization
 
-The first step is to initialize the workspace folder (``my-workspace``) where
-the ``example-application`` and all Zephyr modules will be cloned. You can do
+The first step is to initialize the workspace folder (``training-display``) where
+the ``training-display`` and all Zephyr modules will be cloned. You can do
 that by running:
 
 ```shell
